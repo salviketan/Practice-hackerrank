@@ -1,0 +1,117 @@
+# ----- Go ignore file -----
+# ==========================================
+# Go Binaries & Plugins
+# ==========================================
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# If you build binaries directly into a bin/ folder
+bin/
+
+# ==========================================
+# Testing & Coverage
+# ==========================================
+# Test binaries created by 'go test -c'
+*.test
+
+# Output of the go coverage tool (e.g., -coverprofile=coverage.out)
+*.out
+*.prof
+
+# ==========================================
+# Go Workspaces (Go 1.18+)
+# ==========================================
+# Local workspace files (useful if developers use go.work locally)
+go.work
+go.work.sum
+
+# ==========================================
+# Dependencies (Optional)
+# ==========================================
+# Uncomment the line below if you prefer NOT to track your vendor folder 
+# (By default, modern Go tracks vendor/ if checked in, but many ignore it)
+# vendor/
+
+
+# ----- Rust ignore file -----
+# ==========================================
+# Rust Compiled Artifacts
+# ==========================================
+# Cargo builds everything here (binaries, libraries, dependencies)
+/target/
+
+# ==========================================
+# IDEs & Editors
+# ==========================================
+.vscode/
+.idea/
+*.rs.bk
+
+# ==========================================
+# OS Junk
+# ==========================================
+.DS_Store
+Thumbs.db
+
+
+# ----- Python ignore file -----
+# ==========================================
+# 1. Virtual Environments
+# ==========================================
+.env
+.env.*
+!.env.example
+.venv/
+env/
+venv/
+ENV/
+
+# ==========================================
+# 2. Python Bytecode & Caches
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.tox/
+.nox/
+.ruff_cache/
+
+# ==========================================
+# 3. Distributions & Build Artifacts
+# ==========================================
+build/
+dist/
+*.egg-info/
+*.egg
+wheels/
+sdist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+
+# ==========================================
+# 4. Testing & Coverage
+# ==========================================
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+.pytest_cache/
+cover/
+
+# ==========================================
+# 5. IDEs, Editors & OS Files
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
